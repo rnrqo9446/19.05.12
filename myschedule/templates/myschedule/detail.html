@@ -1,0 +1,14 @@
+{% extends "myschedule/base.html" %}
+
+{% block content %}
+    <h1>헤헤 나는 디.테.일. 페이지얌!</h1>
+    <div>
+        <h2>{{schedule.title}}</h2>
+        <p>{{schedule.memo}}</p>
+        <p>{{schedule.schedule_date}}</p>    
+        <!-- <a href = "{% url 'home' %}">홈으로 가게 해주지!</a> -->
+        <a href = "{% url 'edit' schedule.id %}">수정하게 해주지!</a>
+        <a href = "{% url 'delete' schedule.id %}">삭제하게 해줄까?</a>
+    </div>
+
+{% endblock %}

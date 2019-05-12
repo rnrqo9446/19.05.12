@@ -1,0 +1,13 @@
+{% extends "myschedule/base.html" %}
+
+{% block content %}
+
+    <h1> 여긴 글.수.정 페이지라고!! 다음부턴 여기 들어오는 일 없도록 해!</h1>
+    <form method = "POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type = "submit">확실한거제?</button>
+    </form>
+</body>
+
+{% endblock %}

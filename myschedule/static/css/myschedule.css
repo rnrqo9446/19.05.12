@@ -1,0 +1,29 @@
+h1{
+    color: chocolate;
+    text-decoration: underline;
+    text-transform: Capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+a:link{color: midnightblue; text-decoration: none; font-weight: bold;}
+a:visited { color: mediumvioletred; text-decoration: none; font-weight: bold;}
+a:hover { color: rebeccapurple; text-decoration: underline; font-weight: bold;}
+a:active { color: goldenrod; background-color: salmon; font-weight: bold;}
+/* a:link - 방문하지 않은 링크
+a:visited - 방문했던 링크
+a:hover - 마우스가 올려진 링크
+a:active - 클릭하는 순간 링크 */
+
+
+
+
+p {
+    color : darkblue;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}

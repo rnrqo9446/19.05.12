@@ -1,0 +1,16 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href = "{%static 'css/myschedule.css' %}">
+</head>
+
+<body> 
+    <h1><strong>온전하다의 전!!! 판세의 국!!! 북돋을 배!!!의 블로그라네~~</strong></h1>
+    <img src='https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg' height = "300px" alt="">
+    <div>
+        <a href = "{% url 'new' %}">나는 새글의 요정이야!</a>
+        <a href = "{% url 'home' %}">집갈래?</a>
+    </div>
+
+    {% block content %}
+    {% endblock %}
+</body>
